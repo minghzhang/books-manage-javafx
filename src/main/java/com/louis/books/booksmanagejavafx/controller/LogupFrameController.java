@@ -43,7 +43,7 @@ public class LogupFrameController {
     @FXML
     void login(ActionEvent event) {
         stage.close();
-        boolean ok = simpleTools.isLogIn(username, password, "张三", "123456");
+        boolean ok = simpleTools.isLogIn(username, password, "landon", "1234");
         if (ok) {
             new MainApplication().initMainFrame();
         }
